@@ -1,16 +1,28 @@
-# bharatnova_app
+# BharatNova App
 
-A new Flutter project.
+A Flutter news feed application built as part of a development assignment.
 
-## Getting Started
+## Features Implemented
 
-This project is a starting point for a Flutter application.
+### Task 1 — UI & Device Features
+- UI closely matches the provided Figma design
+- Location permission requested on app launch
+- Notification permission requested on app launch
+- Real-time city location displayed in AppBar using Geolocator
+- TabBar with Post, Nova, News, Article tabs
+- Bottom navigation bar with FAB button
+- Exit confirmation dialog on back press
 
-A few resources to get you started if this is your first Flutter project:
+### Task 2 — API Integration & Feed
+- Posts fetched dynamically from [DummyJSON API](https://dummyjson.com/posts)
+- Shimmer loading effect while fetching posts
+- Error handling with user friendly messages (no internet, server error)
+- Pull to refresh functionality
+- Infinite scroll pagination (loads 10 posts at a time)
+- Read More / Read Less for long post content
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## State Management
+- Used **Provider** for state management
+- Separate providers for Feed and Location
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
