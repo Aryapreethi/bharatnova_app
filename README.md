@@ -24,5 +24,3 @@ A Flutter news feed application built as part of a development assignment.
 ## State Management
 - Used **Provider** for state management
 - Separate providers for Feed and Location
-
-## Project Structure
